@@ -1,0 +1,5 @@
+ki_tu_thuong=input("Nhập một chữ cái thường ")
+ma_unicode=ord(ki_tu_thuong)
+print(f"Mã unicode của '{ki_tu_thuong}' là: {ma_unicode}")
+ki_tu_hoa=ki_tu_thuong.upper()
+print(f"Kí tự hoa của '{ki_tu_thuong}' là: {ki_tu_hoa}")

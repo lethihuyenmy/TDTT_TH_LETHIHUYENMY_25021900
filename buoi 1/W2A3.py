@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+tong = a + b
+hieu = a - b
+tich = a * b
+phan_nguyen = a // b
+phan_du = a % b
+chia_thuc = a / b
+print(f"{a} + {b} = {tong}")
+print(F"{a} - {b} = {hieu}")
+print(f"{a} * {b} = {tich}")
+print(f"{a} // {b} ={phan_nguyen}")
+print(f"{a} % {b} = {phan_du}")
+print(f"{a} / {b} = {chia_thuc :.2f}")
